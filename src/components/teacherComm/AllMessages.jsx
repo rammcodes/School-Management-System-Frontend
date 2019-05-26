@@ -74,20 +74,20 @@ class AllMessages extends Component {
 
         <div
           style={{ width: "1000px", margin: "0px auto" }}
-          class="input-group mb-3"
+          className="input-group mb-3"
         >
           <input
             style={{ width: "95%" }}
             value={this.state.text}
             onChange={this.onText}
             type="text"
-            class="form-control"
+            className="form-control"
             placeholder="type your message here..."
           />
           <div class="input-group-append">
             <button
               onClick={this.onSend}
-              class="btn btn-outline-secondary"
+              className="btn btn-warning"
               type="button"
               id="button-addon2"
             >

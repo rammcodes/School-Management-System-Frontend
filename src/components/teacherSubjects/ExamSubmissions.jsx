@@ -67,9 +67,6 @@ class ExamSubmissions extends Component {
     if (allSubmissions.length) {
       return (
         <div>
-          <Link className="btn btn-primary back" to="/teacherSubjectExams">
-            go back
-          </Link>
           {allSubmissions.map((subm, i) => (
             <div className="individual-sub" key={i}>
               <p style={{ fontSize: "25px" }} className="faint">
