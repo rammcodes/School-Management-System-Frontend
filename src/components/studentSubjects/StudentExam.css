@@ -1,0 +1,11 @@
+.que {
+  margin: 50px auto;
+  width: 1200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.opt {
+  margin: 0px auto;
+  width: 20px;
+}

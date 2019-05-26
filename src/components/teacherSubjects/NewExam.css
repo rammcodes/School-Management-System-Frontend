@@ -1,0 +1,21 @@
+.indi-que {
+  border: 1px solid black;
+  background: rgb(53, 51, 51);
+  margin: 0px auto 20px auto;
+  width: 1200px;
+  color: white;
+  border-radius: 5px;
+}
+
+.head {
+  background: rgb(126, 123, 123);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px auto;
+  width: 1200px;
+}
+
+.que {
+  margin-bottom: 10px;
+}

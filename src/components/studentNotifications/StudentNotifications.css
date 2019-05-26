@@ -1,0 +1,12 @@
+.spinner {
+  margin: 200px auto;
+  width: 40px;
+  height: auto;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.zero-n-msg {
+  margin: 200px auto;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.3);
+}

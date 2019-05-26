@@ -1,0 +1,24 @@
+.list-group {
+  margin: 200px 700px;
+}
+
+.list-group-item {
+  margin: 10px 0px;
+  background: #f3f3f3;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.list-group-item :hover {
+  background-color: burlywood;
+}
+
+li {
+  list-style: none;
+}
+
+.app-form {
+  width: 600px;
+  margin: 150px auto;
+}

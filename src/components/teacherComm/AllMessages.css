@@ -1,0 +1,17 @@
+.spinner {
+  margin: 200px auto;
+  width: 40px;
+  height: auto;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.zero-comm-msg h1 {
+  margin: 200px auto;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.myMsg {
+  background: rgb(128, 18, 231);
+  color: white;
+}

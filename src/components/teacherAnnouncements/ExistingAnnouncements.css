@@ -1,0 +1,28 @@
+.post {
+  margin: 30px auto;
+  height: 100px;
+  width: 700px;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.post {
+  margin: 100px auto;
+}
+
+.zero-ann-msg {
+  margin: 200px auto;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.spinner {
+  margin: 200px auto;
+  width: 40px;
+  height: auto;
+  color: rgba(0, 0, 0, 0.3);
+}
