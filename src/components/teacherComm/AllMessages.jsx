@@ -30,6 +30,7 @@ class AllMessages extends Component {
       msg: this.state.text
     };
     this.props.notifiToParent(data);
+    this.setState({ text: "" });
   };
 
   getCommList = () => {

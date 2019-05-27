@@ -31,7 +31,26 @@ class StudentsList extends Component {
 
   getTableBody = () => {
     const { allStudents } = this.props.teacherReducer;
-    if (!allStudents.length) return null;
+
+    if (allStudents === null) {
+      return (
+        <div className="spinner">
+          <Spinner />
+        </div>
+      );
+    }
+
+    let myStudents = [];
+
+    for (let i = 0; i < allStudents.length; i++) {
+      if (!this.isMyStudent(allStudents[i]._id)) {
+        myStudents.push(allStudents[i]);
+      }
+    }
+
+    if (!myStudents.length)
+      return <h1 className="faint">No Student's Available...!</h1>;
+
     let count = 1;
     return (
       <table className="table table-dark">
@@ -44,7 +63,7 @@ class StudentsList extends Component {
           </tr>
         </thead>
         <tbody>
-          {allStudents.map((student, i) => {
+          {myStudents.map((student, i) => {
             if (!this.isMyStudent(student._id)) {
               if (this.state.isEmpty) this.setState({ isEmpty: false });
               return (

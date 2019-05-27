@@ -108,6 +108,9 @@ class StudentSubjects extends Component {
       return this.addDetails();
     }
 
+    if (!mySubjects.length)
+      return <h1 className="faint">No Subject's Available Yet...!</h1>;
+
     return (
       <table className="table table-dark">
         <thead>

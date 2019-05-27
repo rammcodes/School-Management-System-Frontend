@@ -38,7 +38,9 @@ class NewExam extends Component {
   getNewSubjTemp = () => {
     return (
       <div style={{ margin: "200px 600px" }} clasName="per-form">
-        <h1 className="head">Create a New Subject</h1>
+        <h1 style={{ margin: "50px auto", width: "600px" }} className="head">
+          Create a New Subject
+        </h1>
         <span>
           Subject Name :
           <div className="input-group mb-3">

@@ -31,6 +31,7 @@ class IndiTeacherMsg extends Component {
       msg: this.state.text
     };
     this.props.replyToTeacherNotifi(data);
+    this.setState({ text: "" });
   };
 
   getCommList = () => {
