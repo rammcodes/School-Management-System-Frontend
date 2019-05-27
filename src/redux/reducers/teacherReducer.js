@@ -43,7 +43,9 @@ const teacherReducer = (state = initialState, action) => {
         ...state,
         allStudents: null,
         announcements: null,
-        myStudents: null
+        myStudents: null,
+        commWithPar: null,
+        currStudParCommId: null
       };
 
     default:
